@@ -4,11 +4,10 @@ import StepOtp from '../Steps/StepOtp/StepOtp';
 
 const steps = {
     1: StepPhoneEmail,
-    2: StepOtp
-}
+    2: StepOtp,
+};
 
-const Login = () => {
-
+const Authenticate = () => {
     const [step, setStep] = useState(1);
     const Step = steps[step];
 
@@ -16,9 +15,7 @@ const Login = () => {
         setStep(step + 1);
     }
 
-    return (
-        <Step onNext={onNext}/>
-    )
+    return <Step onNext={onNext} />;
 };
 
-export default Login;
+export default Authenticate;
