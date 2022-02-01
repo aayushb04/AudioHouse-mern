@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 .cardWrapper {
+=======
+.cardWrapper{
+>>>>>>> 20ffaefbf0b561d1337f5c084e1de18ddb08d973
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 6rem;
 }
+<<<<<<< HEAD
 .buttonWrap {
     margin-bottom: 20px;
     display: flex;
@@ -12,6 +17,15 @@
 }
 
 .tabButton {
+=======
+.buttonWrap{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+}
+.tabButton{
+>>>>>>> 20ffaefbf0b561d1337f5c084e1de18ddb08d973
     width: 60px;
     height: 60px;
     background: #262626;
@@ -20,6 +34,7 @@
     border-radius: 10px;
     cursor: pointer;
 }
+<<<<<<< HEAD
 
 .tabButton:last-child {
     margin-left: 20px;
@@ -39,3 +54,20 @@
     margin: 0 auto;
     margin-top: 20px;
 }
+=======
+.tabButton:last-child{
+    margin-left: 10px;
+}
+.active{
+    background: #0077ff;
+}
+.actionButtonWrap{
+    margin-top: 40px;
+}
+.bottomPara{
+    color:#c4c5c5;
+    width: 80%;
+    margin: 0 auto;
+    margin-top:20px;
+}
+>>>>>>> 20ffaefbf0b561d1337f5c084e1de18ddb08d973

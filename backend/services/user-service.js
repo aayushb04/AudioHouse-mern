@@ -11,4 +11,8 @@ class UserService {
     }
 }
 
+<<<<<<< HEAD
 module.exports = new UserService();
+=======
+module.exports = new UserService();
+>>>>>>> 20ffaefbf0b561d1337f5c084e1de18ddb08d973

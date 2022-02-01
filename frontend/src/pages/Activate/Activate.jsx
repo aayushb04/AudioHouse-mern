@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import StepName from '../Steps/StepName/StepName';
 import StepAvatar from '../Steps/StepAvatar/StepAvatar';
@@ -22,3 +23,14 @@ const Activate = () => {
 };
 
 export default Activate;
+=======
+import React from 'react';
+
+const activate = () => {
+    return <div>
+      Activate comp.
+  </div>;
+};
+
+export default activate;
+>>>>>>> 20ffaefbf0b561d1337f5c084e1de18ddb08d973

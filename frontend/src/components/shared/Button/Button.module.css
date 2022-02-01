@@ -16,6 +16,12 @@
 .button:hover {
     background: #014a9c;
 }
+<<<<<<< HEAD
 .arrow {
     margin-left: 10px;
 }
+=======
+.arrow{
+    margin-left: 25px;
+}
+>>>>>>> 20ffaefbf0b561d1337f5c084e1de18ddb08d973
